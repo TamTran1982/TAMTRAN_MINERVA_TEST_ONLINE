@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="MinervaTestOnline" parallel="false">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+	<test name="Run testcase on Chrome">
+		<parameter name="browser" value="Chrome" />
+		<parameter name="authenuser" value="qa-minerva" />
+		<parameter name="authenpass" value="minerva" />
+		<parameter name="url"	value="http://{0}:{1}@par.minerva.vn/" />
+		<parameter name="version" value="83.0" />
+		<classes>
+			<class
+				name="com.minerva.script.OrderProduct" />
+		</classes>
+	</test>
+
+
+</suite> 
