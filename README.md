@@ -11,7 +11,7 @@ Execution:
 ---------------
 *	Clone the repository.
 *	Open command prompt and go to project directory.
-*	To run on local environment use : right click on mouse at "runTestcases.xml" file, then select "Run As > TestNG Suite"
+*	To run on local environment use : right click on mouse at "src/test/resources > runTestcases.xml" file, then select "Run As > TestNG Suite"
 
 Logging:
 ---------------
